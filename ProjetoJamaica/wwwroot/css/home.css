@@ -1,0 +1,213 @@
+/* ==========================================================================
+   HOME PAGE STYLES
+   ========================================================================== */
+
+/* ---------- Hero ---------- */
+.hero {
+  padding: 60px 0 100px 0;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.05;
+  color: #111111;
+  margin-bottom: 24px;
+}
+
+.hero-content p {
+  color: var(--color-text-light);
+  max-width: 480px;
+  margin-bottom: 36px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-media {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.hero-media img:first-child {
+  grid-row: 1 / 3;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+}
+
+.hero-media img {
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------- Feature cards (Historia / Cultura / Culinaria) ---------- */
+.features {
+  padding: 40px 0 100px 0;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.feature-card {
+  border-radius: var(--radius-lg);
+  padding: 40px 32px;
+  border-top: 4px solid transparent;
+}
+
+.feature-card--green {
+  background-color: var(--color-green-bg);
+  border-top-color: var(--color-green);
+}
+
+.feature-card--yellow {
+  background-color: var(--color-yellow-bg);
+  border-top-color: var(--color-yellow);
+}
+
+.feature-card--coral {
+  background-color: var(--color-coral-bg);
+  border-top-color: var(--color-coral);
+}
+
+.feature-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.feature-card--green .feature-icon {
+  background-color: #dcf6de;
+  color: var(--color-green);
+}
+
+.feature-card--yellow .feature-icon {
+  background-color: #f7f6b8;
+  color: #c99a06;
+}
+
+.feature-card--coral .feature-icon {
+  background-color: #fde0e0;
+  color: var(--color-coral);
+}
+
+.feature-card h3 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 14px;
+  color: #111111;
+}
+
+.feature-card p {
+  color: var(--color-text-light);
+  font-size: 15px;
+  text-align: justify;
+  margin-bottom: 22px;
+}
+
+.feature-card .read-more {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.feature-card--green .read-more {
+  color: var(--color-green);
+}
+
+.feature-card--yellow .read-more {
+  color: #c99a06;
+}
+
+.feature-card--coral .read-more {
+  color: var(--color-coral);
+}
+
+/* ---------- Festivals section ---------- */
+.festivals-home {
+  padding: 40px 0 100px 0;
+}
+
+.festival-row {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.festival-row:last-child {
+  margin-bottom: 0;
+}
+
+.festival-row--reverse {
+  flex-direction: row-reverse;
+}
+
+.festival-row-media {
+  flex: 1;
+  padding: 20px;
+  border-radius: var(--radius-lg);
+}
+
+.festival-row-media--green {
+  background-color: var(--color-green-bg);
+}
+
+.festival-row-media--yellow {
+  background-color: var(--color-yellow-bg);
+}
+
+.festival-row-media--coral {
+  background-color: var(--color-coral-bg);
+}
+
+.festival-row-media img {
+  border-radius: var(--radius-md);
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.festival-row-content {
+  flex: 1;
+}
+
+.festival-row-content h3 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 18px;
+  color: #111111;
+}
+
+.festival-row-content p {
+  color: var(--color-text-light);
+  margin-bottom: 28px;
+  text-align: justify;
+}

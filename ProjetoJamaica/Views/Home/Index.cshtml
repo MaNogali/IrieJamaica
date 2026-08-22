@@ -1,8 +1,232 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irie Jamaica | O espírito do Caribe vive aqui</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="~/css/home.css" />
+</head>
+<body>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+    <!-- ===================== INICIO PAGINA ===================== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="eyebrow eyebrow--orange">O ESPÍRITO DO CARIBE VIVE AQUI</span>
+                <h1>Jamaica</h1>
+                <p>
+                    Aninhada no coração do Caribe, a Jamaica é uma vibrante nação insular
+                    celebrada por suas montanhas exuberantes, praias de águas cristalinas,
+                    música pulsante e povo acolhedor. Dos ritmos do reggae aos sabores
+                    marcantes da culinária jerk, a Jamaica oferece uma jornada
+                    inesquecível por uma das culturas mais coloridas do mundo.
+                </p>
+                <div class="hero-buttons">
+                    <a href="festivais.html" class="btn btn-green">Explore Festivais</a>
+                    <a href="historia.html" class="btn btn-outline">Conheça a História</a>
+                </div>
+            </div>
+            <div class="hero-media">
+                <img src="./assets/img/foto2.png" alt="Praia da Jamaica" />
+                <img src="./assets/img/foto3.png" alt="Instrumentos de percussão jamaicanos" />
+                <img src="./assets/img/foto1.png" alt="Falésia na Jamaica" />
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FEATURE CARDS ===================== -->
+    <section class="features">
+        <div class="container">
+            <div class="section-intro">
+                <span class="eyebrow eyebrow--green">DESCUBRA A JAMAICA</span>
+                <h2 class="section-heading">Um país como nenhum outro</h2>
+            </div>
+
+            <div class="features-grid">
+                <article class="feature-card feature-card--green">
+                    <div class="feature-icon">📖</div>
+                    <h3>História</h3>
+                    <p>
+                        A história da Jamaica vai desde os indígenas Taíno até a
+                        colonização espanhola em 1494, o domínio britânico a partir de
+                        1655 e a independência em 6 de agosto de 1962. Um passado
+                        resistente moldou uma nação de força extraordinária e orgulho
+                        cultural.
+                    </p>
+                    <a href="historia.html" class="read-more">Leia mais &gt;</a>
+                </article>
+
+                <article class="feature-card feature-card--yellow">
+                    <div class="feature-icon">🎵</div>
+                    <h3>Cultura</h3>
+                    <p>
+                        A Jamaica deu ao mundo o reggae, o ska e o dancehall, e o lendário
+                        Bob Marley. O rastafarianismo, a arte vibrante, os mercados
+                        coloridos e um espírito comunitário acolhedor definem uma cultura
+                        que ressoa muito além das praias da ilha. Além de muitas lendas e
+                        folclores fantasmagóricos.
+                    </p>
+                    <a href="cultura.html" class="read-more">Leia mais &gt;</a>
+                </article>
+
+                <article class="feature-card feature-card--coral">
+                    <div class="feature-icon">🍴</div>
+                    <h3>Culinária</h3>
+                    <p>
+                        A culinária jamaicana é um deleite para os sentidos — frango jerk
+                        defumado, ackee com bacalhau (o prato nacional), bolinhos de massa
+                        típicos de festivais, arroz com feijão e bebidas refrescantes de
+                        hibisco. Cada mordida conta uma história de raízes africanas,
+                        britânicas e indígenas.
+                    </p>
+                    <a href="culinaria.html" class="read-more">Leia mais &gt;</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FESTIVALS ===================== -->
+    <section class="festivals-home">
+        <div class="container">
+            <div class="section-intro">
+                <span class="eyebrow eyebrow--orange">CELEBRE CONOSCO</span>
+                <h2 class="section-heading">Festivais Jamaicanos</h2>
+                <p>
+                    Dos ritmos contagiosos do reggae ao caleidoscópio do carnaval e à
+                    magia esfumaçada do jerk — os festivais da Jamaica são experiências
+                    que você sente na alma.
+                </p>
+            </div>
+
+            <div class="festival-row">
+                <div class="festival-row-media festival-row-media--green">
+                    <img src="./assets/img/sumfest.png" alt="Reggae Sumfest" />
+                </div>
+                <div class="festival-row-content">
+                    <span class="pill-tag pill-tag--green">Montego Bay · Todo Julho</span>
+                    <h3>Reggae Sumfest</h3>
+                    <p>
+                        O Reggae Sumfest é o maior festival de música do Caribe,
+                        realizado anualmente em Montego Bay. Ele atrai lendas
+                        internacionais do reggae, dancehall e soca, juntamente com
+                        artistas jamaicanos em ascensão. Por uma semana eletrizante, a
+                        ilha pulsa ao ritmo de sua forma de arte mais celebrada — uma
+                        peregrinação para os amantes da música de todo o mundo.
+                    </p>
+                    <a href="festivais.html" class="btn btn-green">Explore Festival</a>
+                </div>
+            </div>
+
+            <div class="festival-row festival-row--reverse">
+                <div class="festival-row-media festival-row-media--yellow">
+                    <img src="./assets/img/festivalbob.png" alt="Semana Bob Marley" />
+                </div>
+                <div class="festival-row-content">
+                    <span class="pill-tag pill-tag--yellow">Kingston · Fevereiro</span>
+                    <h3>Semana Bob Marley</h3>
+                    <p>
+                        É uma das celebrações culturais mais marcantes da Jamaica e uma
+                        experiência imperdível para quem visita o país. Realizado
+                        anualmente em homenagem a Bob Marley, o evento reúne shows de
+                        reggae, apresentações culturais, exposições e atividades que
+                        celebram a vida e o legado do artista. Participar do festival é
+                        uma oportunidade única de vivenciar de perto a energia da música
+                        jamaicana.
+                    </p>
+                    <a href="festivais.html" class="btn btn-yellow">Explore Festival</a>
+                </div>
+            </div>
+
+            <div class="festival-row">
+                <div class="festival-row-media festival-row-media--coral">
+                    <img src="./assets/img/ochorios.png" alt="Festival de Jazz de Ocho Rios" />
+                </div>
+                <div class="festival-row-content">
+                    <span class="pill-tag pill-tag--coral">Ocho Rios · Abril</span>
+                    <h3>Festival de Jazz de Ocho Rios</h3>
+                    <p>
+                        Evento musical que celebra o jazz em suas diversas formas,
+                        reunindo artistas locais e internacionais em apresentações cheias
+                        de energia e sofisticação. O festival mistura o jazz tradicional
+                        com influências caribenhas e do reggae, criando uma experiência
+                        musical única. É uma ótima oportunidade para quem deseja
+                        vivenciar a música jamaicana em um ambiente vibrante.
+                    </p>
+                    <a href="festivais.html" class="btn btn-coral">Explore Festival</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SAIBA MAIS ===================== -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-dots">
+                <span></span><span></span><span></span>
+            </div>
+            <h2>Quer descobrir mais sobre Festivais Jamaicanos?</h2>
+            <p>
+                Cadastre-se e descubra ainda mais eventos culturais, guias de viagem
+                e dicas para visitar o coração do Caribe.
+            </p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Digite seu email" />
+                <button type="submit">Cadastre-se grátis</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">
+                        <span class="nav-logo-bars">
+                            <span></span><span></span><span></span>
+                        </span>
+                        <span class="nav-logo-text">Irie Jamaica</span>
+                    </a>
+                    <p>
+                        Seu guia para a ilha mais vibrante do Caribe. Descubra as praias,
+                        a cultura, a culinária e os festivais da Jamaica.
+                    </p>
+                    <span class="footer-email">iriejamaica.contato@email.com</span>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="Instagram">◎</a>
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="X">✕</a>
+                    </div>
+                </div>
+                <div class="footer-columns">
+                    <div class="footer-col">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="historia.html">História</a></li>
+                            <li><a href="culinaria.html">Culinária</a></li>
+                            <li><a href="cultura.html">Cultura</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Festivais</h4>
+                        <ul>
+                            <li><a href="festivais.html">Semana Bob Marley</a></li>
+                            <li><a href="festivais.html">Festival de Jazz Ocho Rios</a></li>
+                            <li><a href="festivais.html">Reggae Sumfest</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                © 2026 Irie Jamaica. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
