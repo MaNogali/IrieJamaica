@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\",
+  "WorkspaceRootPath": "C:\\Users\\gustavo\\source\\repos\\IrieJamaica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\jjv\\documents\\mostra\\iriejamaica\\projetojamaica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|solutionrelative:projetojamaica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\gustavo\\source\\repos\\iriejamaica\\projetojamaica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|solutionrelative:projetojamaica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\jjv\\documents\\mostra\\iriejamaica\\projetojamaica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\gustavo\\source\\repos\\iriejamaica\\projetojamaica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|solutionrelative:projetojamaica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\jjv\\documents\\mostra\\iriejamaica\\projetojamaica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|solutionrelative:projetojamaica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\gustavo\\source\\repos\\iriejamaica\\projetojamaica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|solutionrelative:projetojamaica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\gustavo\\source\\repos\\iriejamaica\\projetojamaica\\wwwroot\\css\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|solutionrelative:projetojamaica\\wwwroot\\css\\base.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\gustavo\\source\\repos\\iriejamaica\\projetojamaica\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|solutionrelative:projetojamaica\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +30,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "base.css",
+              "DocumentMoniker": "C:\\Users\\gustavo\\source\\repos\\IrieJamaica\\ProjetoJamaica\\wwwroot\\css\\base.css",
+              "RelativeDocumentMoniker": "ProjetoJamaica\\wwwroot\\css\\base.css",
+              "ToolTip": "C:\\Users\\gustavo\\source\\repos\\IrieJamaica\\ProjetoJamaica\\wwwroot\\css\\base.css",
+              "RelativeToolTip": "ProjetoJamaica\\wwwroot\\css\\base.css",
+              "ViewState": "AgIAAJ0BAAAAAAAAAAAUwDwBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-24T21:51:26.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "home.css",
+              "DocumentMoniker": "C:\\Users\\gustavo\\source\\repos\\IrieJamaica\\ProjetoJamaica\\wwwroot\\css\\home.css",
+              "RelativeDocumentMoniker": "ProjetoJamaica\\wwwroot\\css\\home.css",
+              "ToolTip": "C:\\Users\\gustavo\\source\\repos\\IrieJamaica\\ProjetoJamaica\\wwwroot\\css\\home.css",
+              "RelativeToolTip": "ProjetoJamaica\\wwwroot\\css\\home.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-08-24T21:51:21.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\source\\repos\\IrieJamaica\\ProjetoJamaica\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProjetoJamaica\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\source\\repos\\IrieJamaica\\ProjetoJamaica\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ProjetoJamaica\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAAAKQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-22T23:00:10.146Z",
               "EditorCaption": ""
@@ -41,26 +75,27 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gustavo\\source\\repos\\IrieJamaica\\ProjetoJamaica\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProjetoJamaica\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gustavo\\source\\repos\\IrieJamaica\\ProjetoJamaica\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ProjetoJamaica\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAE0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-18T11:19:45.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\gustavo\\source\\repos\\IrieJamaica\\ProjetoJamaica\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ProjetoJamaica\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "ProjetoJamaica\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\gustavo\\source\\repos\\IrieJamaica\\ProjetoJamaica\\wwwroot\\css\\site.css*",
+              "RelativeToolTip": "ProjetoJamaica\\wwwroot\\css\\site.css*",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-08-18T11:25:46.592Z"
+              "WhenOpened": "2026-08-18T11:25:46.592Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -19,9 +19,6 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
-}
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
   color: var(--bs-secondary-color);
@@ -57,4 +54,19 @@ nav {
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    position:static;
+}
+.footer-brand p{
+    text-wrap: wrap;
+    line-height: 30px;
+}
+.footer-col{
+}
+ul{
+    padding-left: 0;
 }
