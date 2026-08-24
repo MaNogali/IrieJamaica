@@ -1,0 +1,56 @@
+﻿@model ProjetoJamaica.Models.Cliente
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Irie Jamaica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/base.css" />
+    <link rel="stylesheet" href="~/css/login.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body class="auth-body">
+
+    <div class="auth-wrapper">
+        <div class="auth-panel">
+            <div class="auth-panel-inner">
+                <h1>Faça Login</h1>
+                <p>
+                    E tenha acesso a mais informações sobre os melhores festivais
+                    jamaicanos.
+                </p>
+            </div>
+        </div>
+
+        <div class="auth-form-side">
+
+            <form class="auth-form" method="post">
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input asp-for="Email" type="email" id="email" placeholder="Digite aqui seu email" />
+                </div>
+                <div class="form-field">
+                    <label for="senha">Senha</label>
+                    <input asp-for="Senha" type="password" id="senha" placeholder="Digite aqui sua senha" />
+                </div>
+
+                <div class="auth-form-footer">
+                    <span class="auth-switch">Não possui uma conta? <a href="cadastro.html">Cadastre-se</a></span>
+                    <button type="submit" class="auth-submit">Login</button>
+                </div>
+                @if (ViewData["MSG_E"] != null)
+                {
+                    <p class="alert alert-danger">@Html.Raw(ViewData["MSG_E"])</p>
+                }
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

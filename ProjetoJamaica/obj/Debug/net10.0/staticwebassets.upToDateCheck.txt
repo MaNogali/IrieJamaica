@@ -7,6 +7,8 @@ wwwroot\assets\img\ochorios.png
 wwwroot\assets\img\sumfest.png
 wwwroot\css\base.css
 wwwroot\css\home.css
+wwwroot\css\login.css
+wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -69,9 +71,8 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\site.css
-C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\css\base.css
-C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\css\home.css
+C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\css\site.css
 C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\favicon.ico
 C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\js\site.js
 C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -132,5 +133,6 @@ C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist
 C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.slim.min.map
-C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\css\site.css
+C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\css\home.css
+C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\css\base.css
+C:\Users\gustavo\source\repos\IrieJamaica\ProjetoJamaica\wwwroot\css\login.css
