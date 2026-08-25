@@ -70,3 +70,17 @@ nav {
 ul{
     padding-left: 0;
 }
+.highlightVerde {
+    color: #225F2F;
+}
+.highlightVermelho {
+    color: #BD2F2F;
+}
+.highlightamarelo {
+    color: #E89C21;
+}
+.logoNome {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}

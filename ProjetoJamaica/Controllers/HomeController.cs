@@ -21,6 +21,11 @@ namespace ProjetoJamaica.Controllers
             return View();
         }
 
+        public IActionResult Festivais()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

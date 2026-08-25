@@ -1,0 +1,195 @@
+﻿/* ==========================================================================
+   FESTIVAIS PAGE STYLES
+   ========================================================================== */
+
+/* ---------- Hero ---------- */
+.hero-inner {
+    padding: 60px 0 70px 0;
+}
+
+    .hero-inner .container {
+        display: flex;
+        align-items: flex-start;
+        gap: 60px;
+    }
+
+.hero-inner-content {
+    flex: 1;
+}
+
+    .hero-inner-content h1 {
+        font-family: var(--font-serif);
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.1;
+        color: #111111;
+        margin-bottom: 22px;
+    }
+
+    .hero-inner-content p {
+        color: var(--color-text-light);
+        max-width: 480px;
+        margin-bottom: 28px;
+    }
+
+.quick-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+    .quick-nav a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #e0961f;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .quick-nav .icon-circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1.5px solid #e0961f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+        font-style: italic;
+        font-weight: 700;
+    }
+
+.hero-inner-media {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+    .hero-inner-media img:first-child {
+        grid-row: 1 / 3;
+        height: 100%;
+    }
+
+    .hero-inner-media img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: var(--radius-lg);
+    }
+
+/* ---------- Festival detail sections ---------- */
+.festival-detail {
+    padding: 70px 0;
+}
+
+.festival-detail-intro {
+    text-align: center;
+    max-width: 820px;
+    margin: 0 auto 48px auto;
+}
+
+    .festival-detail-intro h2 {
+        font-family: var(--font-serif);
+        font-weight: 700;
+        font-size: 44px;
+        color: #111111;
+        margin-bottom: 20px;
+    }
+
+    .festival-detail-intro p {
+        color: var(--color-text-light);
+    }
+
+.info-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.info-card {
+    border-radius: var(--radius-lg);
+    padding: 32px 36px;
+}
+
+.info-card--green {
+    background-color: var(--color-green-bg);
+}
+
+.info-card--coral {
+    background-color: var(--color-coral-bg);
+}
+
+.info-card h4 {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+}
+
+.info-card--green h4 {
+    color: var(--color-green);
+}
+
+.info-card--coral h4 {
+    color: var(--color-coral);
+}
+
+.info-card p {
+    font-size: 14.5px;
+    margin-bottom: 16px;
+}
+
+    .info-card p:last-child {
+        margin-bottom: 0;
+    }
+
+.info-card--green p {
+    color: #3a3a3a;
+}
+
+.info-card--coral p {
+    color: #b24545;
+}
+
+.info-card .info-block {
+    margin-bottom: 22px;
+}
+
+    .info-card .info-block:last-child {
+        margin-bottom: 0;
+    }
+
+.festival-audience {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+    .festival-audience img {
+        flex: 1;
+        height: 500px;
+        width: 500px;
+        object-fit: cover;
+        border-radius: var(--radius-lg);
+    }
+
+.festival-audience-text {
+    flex: 1;
+}
+
+.festival-audience-text p {
+    color: var(--color-text-light);
+    text-align: justify;
+    margin-bottom: 18px;
+}
+
+.festival-audience-text p:last-child {
+    margin-bottom: 0;
+}
+
+.festival-detail + .festival-detail {
+    border-top: 1px solid #efefef;
+}
