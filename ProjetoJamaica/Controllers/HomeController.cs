@@ -46,6 +46,20 @@ namespace ProjetoJamaica.Controllers
                 return View();
             }
         }
+        [HttpGet]
+        public IActionResult Cadastrar()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Cadastrar([FromForm] Cliente cliente)
+        {
+
+            _clienteRepository.Cadastrar(cliente);
+
+            return RedirectToAction(nameof(Login));
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

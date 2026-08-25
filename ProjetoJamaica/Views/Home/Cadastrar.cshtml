@@ -20,10 +20,9 @@
     <div class="auth-wrapper">
         <div class="auth-panel">
             <div class="auth-panel-inner">
-                <h1>Faça Login</h1>
+                <h1>Cadastre-se</h1>
                 <p>
-                    E tenha acesso a mais informações sobre os melhores festivais
-                    jamaicanos.
+                    E descubra mais sobre os melhores festivais jamaicanos para a sua viagem
                 </p>
             </div>
         </div>
@@ -32,6 +31,10 @@
 
             <form class="auth-form" method="post">
                 <div class="form-field">
+                    <label for="email">Nome completo</label>
+                    <input asp-for="Nome" type="text" id="nome" placeholder="Digite aqui seu nome completo" />
+                </div>
+                <div class="form-field">
                     <label for="email">Email</label>
                     <input asp-for="Email" type="email" id="email" placeholder="Digite aqui seu email" />
                 </div>
@@ -39,10 +42,14 @@
                     <label for="senha">Senha</label>
                     <input asp-for="Senha" type="password" id="senha" placeholder="Digite aqui sua senha" />
                 </div>
+                <div class="form-field">
+                    <label for="email">Confirme sua senha</label>
+                    <input asp-for="Senha" type="password" id="email" placeholder="Confirme sua senha" />
+                </div>
 
                 <div class="auth-form-footer">
-                    <span class="auth-switch">Não possui uma conta? <a asp-action="Cadastrar" asp-controller="Home">Cadastre-se</a></span>
-                    <button type="submit" class="auth-submit">Login</button>
+                    <span class="auth-switch">Já possui uma conta? <a asp-action="Login">Faça login</a></span>
+                    <button type="submit" class="auth-submit">Cadastre-se</button>
                 </div>
                 @if (ViewData["MSG_E"] != null)
                 {

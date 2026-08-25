@@ -46,13 +46,13 @@ namespace AppLoginCore.Repository
             using (var conexao = new MySqlConnection(_conexaoMySQL))
             {
                 conexao.Open();
-                MySqlCommand cmd = new MySqlCommand("insert into tbCliente (Nome, Nascimento, Sexo, CPF, Telefone, Email, Senha, Situacao)" +
-                    "values (@Nome, @Nascimento, @Sexo, @CPF, @Telefone, @Email, @Senha, @Situacao)", conexao);
+                MySqlCommand cmd = new MySqlCommand("insert into tbCliente (Nome, Email, Senha, Situacao)" +
+                    "values (@Nome, @Email, @Senha, @Situacao)", conexao);
 
                 cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = cliente.Nome;
                 cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = cliente.Email;
                 cmd.Parameters.Add("@Senha", MySqlDbType.VarChar).Value = cliente.Senha;
-                cmd.Parameters.Add("@Email", MySqlDbType.VarChar).Value = Situacao;
+                cmd.Parameters.Add("@Situacao", MySqlDbType.VarChar).Value = "A";
 
                 cmd.ExecuteNonQuery();
                 conexao.Close();
