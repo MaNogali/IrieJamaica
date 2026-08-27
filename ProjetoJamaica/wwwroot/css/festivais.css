@@ -193,3 +193,7 @@
 .festival-detail + .festival-detail {
     border-top: 1px solid #efefef;
 }
+
+.desconto{
+    border: solid 1px black;
+}

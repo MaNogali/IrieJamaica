@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@inject ProjetoJamaica.Libraries.Login.LoginCliente LoginCliente
+
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8" />
@@ -127,7 +129,20 @@
                     </p>
                 </div>
             </div>
+
+
         </div>
+        <div class="d-flex align-items-center justify-content-center desconto mt-5">
+            @if (LoginCliente.GetCliente() != null)
+            {
+                <h1>IRIESUM2026</h1>
+            }
+            else
+            {
+                <h1>FAÇA LOGIN PARA TER UM DESCONTO</h1>
+            }
+
+         </div>
     </section>
 
     <!-- ===================== SEMANA BOB MARLEY ===================== -->
@@ -227,6 +242,17 @@
                 </div>
             </div>
         </div>
+                <div class="d-flex align-items-center justify-content-center desconto mt-5">
+            @if (LoginCliente.GetCliente() != null)
+            {
+                <h1>IRIEMARLEY2026</h1>
+            }
+            else
+            {
+                <h1>FAÇA LOGIN PARA TER UM DESCONTO</h1>
+            }
+
+         </div>
     </section>
 
     <!-- ===================== FESTIVAL DE JAZZ DE OCHO RIOS ===================== -->
@@ -322,6 +348,17 @@
                 </div>
             </div>
         </div>
+                <div class="d-flex align-items-center justify-content-center desconto mt-5">
+            @if (LoginCliente.GetCliente() != null)
+            {
+                <h1>OCHORIOSIRIE2026</h1>
+            }
+            else
+            {
+                <h1>FAÇA LOGIN PARA TER UM DESCONTO</h1>
+            }
+
+         </div>
     </section>
 
 
