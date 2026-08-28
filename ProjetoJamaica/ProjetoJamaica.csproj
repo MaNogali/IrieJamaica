@@ -7,24 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Home\culinaria.cshtml" />
-    <Content Remove="Views\Home\cultura.cshtml" />
-    <Content Remove="Views\Home\historia.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="MySql.Data" Version="26.7.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Banco\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Views\Home\culinaria.cshtml" />
-    <None Include="Views\Home\cultura.cshtml" />
-    <None Include="Views\Home\Historia.cshtml" />
   </ItemGroup>
 
 </Project>

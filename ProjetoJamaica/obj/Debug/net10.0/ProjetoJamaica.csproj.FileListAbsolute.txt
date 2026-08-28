@@ -588,3 +588,4 @@ C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compr
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\xz9rlcpwyn-{0}-ntso39qfke-ntso39qfke.gz
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\ProjetoJ.B402174B.Up2Date
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\5qgmyn019t-{0}-fql5spddjc-fql5spddjc.gz
+C:\Users\gustavo\Documents\Jamaica\2\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\5qgmyn019t-{0}-e9wjtjvxvx-e9wjtjvxvx.gz
