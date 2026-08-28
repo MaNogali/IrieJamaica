@@ -1,0 +1,172 @@
+/* ==========================================================================
+   CULINARIA PAGE STYLES
+   ========================================================================== */
+
+/* ---------- Hero ---------- */
+.hero-inner {
+  padding: 60px 0 90px 0;
+}
+
+.hero-inner .container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-inner-content {
+  flex: 1;
+}
+
+.hero-inner-content h1 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  color: #111111;
+  margin-bottom: 22px;
+}
+
+.hero-inner-content p {
+  color: var(--color-text-light);
+  max-width: 480px;
+  margin-bottom: 32px;
+}
+
+.hero-inner-media {
+  flex: 1;
+}
+
+.hero-inner-media img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+}
+
+/* ---------- Pratos Tipicos grid ---------- */
+.dishes-section {
+  padding: 20px 0 90px 0;
+}
+
+.dishes-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.dish-card {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  border-top: 4px solid transparent;
+}
+
+.dish-card--green {
+  background-color: var(--color-green-bg);
+  border-top-color: var(--color-green);
+}
+
+.dish-card--yellow {
+  background-color: var(--color-yellow-bg);
+  border-top-color: var(--color-yellow);
+}
+
+.dish-card--coral {
+  background-color: var(--color-coral-bg);
+  border-top-color: var(--color-coral);
+}
+
+.dish-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+}
+
+.dish-card h3 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #111111;
+}
+
+.dish-card p {
+  color: var(--color-text-light);
+  font-size: 14px;
+}
+
+/* ---------- Bebidas / rows ---------- */
+.drinks-row {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  padding: 40px 0 90px 0;
+}
+
+.drinks-row-media {
+  flex: 1;
+  padding: 20px;
+  border-radius: var(--radius-lg);
+  background-color: var(--color-coral-bg);
+}
+
+.drinks-row-media img {
+  width: 100%;
+  border-radius: var(--radius-md);
+  height: 320px;
+  object-fit: cover;
+}
+
+.drinks-row-content {
+  flex: 1;
+}
+
+.drinks-row-content p {
+  color: var(--color-text-light);
+  text-align: justify;
+  margin-bottom: 18px;
+}
+
+.drinks-row-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- Origens (three column info) ---------- */
+.origins-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.origin-card {
+  text-align: center;
+  padding: 36px 28px;
+  border-radius: var(--radius-lg);
+}
+
+.origin-card--green {
+  background-color: var(--color-green-bg);
+}
+
+.origin-card--yellow {
+  background-color: var(--color-yellow-bg);
+}
+
+.origin-card--coral {
+  background-color: var(--color-coral-bg);
+}
+
+.origin-card h3 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #111111;
+}
+
+.origin-card p {
+  color: var(--color-text-light);
+  font-size: 14px;
+}

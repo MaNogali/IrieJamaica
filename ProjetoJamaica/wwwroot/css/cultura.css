@@ -1,0 +1,299 @@
+/* ==========================================================================
+   CULTURA PAGE STYLES
+   ========================================================================== */
+
+/* ---------- Hero ---------- */
+.hero-inner {
+  padding: 60px 0 90px 0;
+}
+
+.hero-inner .container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-inner-content {
+  flex: 1;
+}
+
+.hero-inner-content h1 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  color: #111111;
+  margin-bottom: 22px;
+}
+
+.hero-inner-content p {
+  color: var(--color-text-light);
+  max-width: 480px;
+  margin-bottom: 32px;
+}
+
+.hero-inner-media {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.hero-inner-media img {
+  border-radius: var(--radius-md);
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+/* ---------- Alternating content rows (idioma/religiao/rastafari) ---------- */
+.culture-row {
+  display: flex;
+  align-items: center;
+  gap: 56px;
+  padding: 56px 0;
+}
+
+.culture-row--reverse {
+  flex-direction: row-reverse;
+}
+
+.culture-row-media {
+  flex: 1;
+  padding: 20px;
+  border-radius: var(--radius-lg);
+}
+
+.culture-row-media--green {
+  background-color: var(--color-green-bg);
+}
+
+.culture-row-media--yellow {
+  background-color: var(--color-yellow-bg);
+}
+
+.culture-row-media--coral {
+  background-color: var(--color-coral-bg);
+}
+
+.culture-row-media img {
+  width: 100%;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+}
+
+.culture-row-content {
+  flex: 1;
+}
+
+.culture-row-content p {
+  color: var(--color-text-light);
+  text-align: justify;
+  margin-bottom: 18px;
+}
+
+.culture-row-content p:last-child {
+  margin-bottom: 0;
+}
+
+.culture-row-content .highlight-green {
+  color: var(--color-green);
+  font-weight: 600;
+}
+
+.culture-row-content .highlight-coral {
+  color: var(--color-coral);
+  font-weight: 600;
+}
+
+.row-divider {
+  width: 56px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.row-divider--yellow {
+  background-color: var(--color-gold);
+  margin: 0 auto;
+}
+
+.row-divider--coral {
+  background-color: var(--color-coral);
+  margin: 0 auto;
+}
+
+/* ---------- Vestimentas (text + 2x2 grid) ---------- */
+.section-block {
+  padding: 60px 0;
+}
+
+.vestimentas-layout {
+  display: flex;
+  gap: 56px;
+  align-items: flex-start;
+}
+
+.vestimentas-text {
+  flex: 1;
+}
+
+.vestimentas-text p {
+  color: var(--color-text-light);
+  text-align: justify;
+  margin-bottom: 18px;
+}
+
+.vestimentas-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.vestimentas-grid img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+}
+
+/* ---------- Dancas (image + text repeated rows) ---------- */
+.dance-row {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 32px;
+}
+
+.dance-row:last-child {
+  margin-bottom: 0;
+}
+
+.dance-row img {
+  flex: 1;
+  height: 220px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+}
+
+.dance-row p {
+  flex: 1;
+  color: var(--color-text-light);
+  text-align: justify;
+}
+
+/* ---------- Folclore cards ---------- */
+.folk-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.folk-card {
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  border-top: 4px solid transparent;
+}
+
+.folk-card--green {
+  background-color: var(--color-green-bg);
+  border-top-color: var(--color-green);
+}
+
+.folk-card--yellow {
+  background-color: var(--color-yellow-bg);
+  border-top-color: var(--color-yellow);
+}
+
+.folk-card--coral {
+  background-color: var(--color-coral-bg);
+  border-top-color: var(--color-coral);
+}
+
+.folk-card h3 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 14px;
+  color: #111111;
+}
+
+.folk-card--coral h3 {
+  color: var(--color-coral-dark);
+}
+
+.folk-card p {
+  color: var(--color-text-light);
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.folk-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+}
+
+/* ---------- Esportes ---------- */
+.sports-intro {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.sports-intro p {
+  max-width: 780px;
+  margin: 16px auto 0 auto;
+  color: var(--color-text-light);
+}
+
+.sports-row {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 56px;
+}
+
+.sports-row:last-child {
+  margin-bottom: 0;
+}
+
+.sports-row-text {
+  flex: 1;
+}
+
+.sports-row-text p {
+  color: var(--color-text-light);
+  text-align: justify;
+}
+
+.sports-row-media {
+  flex: 1;
+}
+
+.sports-row-media img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+}
+
+.sports-grid-media {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.sports-grid-media img:nth-child(3) {
+  grid-row: 1 / 3;
+  height: 100%;
+}
+
+.sports-grid-media img {
+  width: 100%;
+  height: 128px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+}
