@@ -587,7 +587,7 @@ C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compr
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\tq40597qmo-{0}-tj07ots2kr-tj07ots2kr.gz
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\xz9rlcpwyn-{0}-ntso39qfke-ntso39qfke.gz
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\ProjetoJ.B402174B.Up2Date
-C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\5qgmyn019t-{0}-fql5spddjc-fql5spddjc.gz
 C:\Users\gustavo\Documents\Jamaica\2\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\5qgmyn019t-{0}-e9wjtjvxvx-e9wjtjvxvx.gz
-C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\vu9125o7ka-{0}-jt0oq86j8l-jt0oq86j8l.gz
-C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\jpd0trzy2d-{0}-u6zvp5tsme-u6zvp5tsme.gz
+C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\jpd0trzy2d-{0}-r8yedgn2p9-r8yedgn2p9.gz
+C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\vu9125o7ka-{0}-0jss96tpa2-0jss96tpa2.gz
+C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\5qgmyn019t-{0}-e9wjtjvxvx-e9wjtjvxvx.gz

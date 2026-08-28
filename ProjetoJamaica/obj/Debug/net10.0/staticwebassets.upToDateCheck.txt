@@ -5,6 +5,13 @@ wwwroot\assets\img\festivalbob.png
 wwwroot\assets\img\foto1.png
 wwwroot\assets\img\foto2.png
 wwwroot\assets\img\foto3.png
+wwwroot\assets\img\hist1.png
+wwwroot\assets\img\hist2.png
+wwwroot\assets\img\hist3.png
+wwwroot\assets\img\hist4.1.png
+wwwroot\assets\img\hist4.png
+wwwroot\assets\img\hist5.png
+wwwroot\assets\img\hist6.png
 wwwroot\assets\img\logo.png
 wwwroot\assets\img\ochorios.png
 wwwroot\assets\img\OchoRios2.png
@@ -81,7 +88,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\css\base.css
+C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\css\culinaria.css
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\css\cultura.css
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\css\festivais.css
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\css\historia.css
@@ -143,10 +150,10 @@ C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery-vali
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery-validation\LICENSE.md
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.js
-C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.min.js
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.min.map
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.slim.js
-C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\css\base.css
+C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.min.js
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\jjv\Documents\mostra\IrieJamaica\ProjetoJamaica\wwwroot\css\culinaria.css
