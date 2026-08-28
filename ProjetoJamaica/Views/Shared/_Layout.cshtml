@@ -80,17 +80,23 @@
                             <h4>Explore</h4>
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="historia.html">História</a></li>
-                                <li><a href="culinaria.html">Culinária</a></li>
-                                <li><a href="cultura.html">Cultura</a></li>
+                                <li>
+                                    <a  asp-area="" asp-controller="Home" asp-action="Historia">História</a>
+                                </li>
+                                <li>
+                                    <a asp-area="" asp-controller="Home" asp-action="Cultura">Cultura</a>
+                                </li>
+                                <li>
+                                    <a  asp-area="" asp-controller="Home" asp-action="Culinaria">Culinária</a>
+                                </li>
                             </ul>
                         </div>
                         <div class="footer-col">
                             <h4>Festivais</h4>
                             <ul>
-                                <li><a href="festivais.html">Semana Bob Marley</a></li>
-                                <li><a href="festivais.html">Festival de Jazz Ocho Rios</a></li>
-                                <li><a href="festivais.html">Reggae Sumfest</a></li>
+                                <li><a  asp-area="" asp-controller="Home" asp-action="Festivais">Semana Bob Marley</a></li>
+                                <li><a  asp-area="" asp-controller="Home" asp-action="Festivais">Ocho Rios</a></li>
+                                <li><a  asp-area="" asp-controller="Home" asp-action="Festivais">Reggae Sumfest</a></li>
                             </ul>
                         </div>
                     </div>
