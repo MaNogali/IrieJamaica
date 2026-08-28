@@ -26,6 +26,20 @@ namespace ProjetoJamaica.Controllers
             return View();
         }
 
+        public IActionResult Historia()
+        {
+            return View();
+        }
+
+        public IActionResult Cultura()
+        {
+            return View();
+        }
+
+        public IActionResult Culinaria()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

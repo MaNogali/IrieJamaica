@@ -1,0 +1,188 @@
+/* ==========================================================================
+   HISTORIA PAGE STYLES
+   ========================================================================== */
+
+/* ---------- Hero ---------- */
+.hero-inner {
+  padding: 60px 0 90px 0;
+}
+
+.hero-inner .container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-inner-content {
+  flex: 1;
+}
+
+.hero-inner-content h1 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  color: #111111;
+  margin-bottom: 22px;
+}
+
+.hero-inner-content p {
+  color: var(--color-text-light);
+  max-width: 480px;
+  margin-bottom: 32px;
+}
+
+.hero-inner-media {
+  flex: 1;
+}
+
+.hero-inner-media img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+}
+
+/* ---------- Two image block (Primeiros Habitantes) ---------- */
+.twin-images {
+  padding: 60px 0;
+}
+
+.twin-images-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.twin-images-grid .img-frame {
+  border-radius: var(--radius-lg);
+  padding: 24px;
+}
+
+.twin-images-grid .img-frame img {
+  border-radius: var(--radius-md);
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.img-frame--green {
+  background-color: var(--color-green-bg);
+}
+
+.img-frame--coral {
+  background-color: var(--color-coral-bg);
+}
+
+.section-body-text {
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--color-text-light);
+}
+
+/* ---------- Colonização intro ---------- */
+.colonization-intro {
+  padding: 60px 0 20px 0;
+  text-align: center;
+}
+
+.colonization-intro p {
+  max-width: 780px;
+  margin: 16px auto 0 auto;
+  color: var(--color-text-light);
+}
+
+/* ---------- Timeline rows ---------- */
+.timeline {
+  padding: 40px 0 80px 0;
+}
+
+.timeline-row {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-bottom: 48px;
+}
+
+.timeline-row:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-row--reverse {
+  flex-direction: row-reverse;
+}
+
+.timeline-card {
+  flex: 1;
+  padding: 36px;
+  border-radius: var(--radius-lg);
+}
+
+.timeline-card--green {
+  background-color: var(--color-green-bg);
+}
+
+.timeline-card--yellow {
+  background-color: var(--color-yellow-bg);
+}
+
+.timeline-card--coral {
+  background-color: var(--color-coral-bg);
+}
+
+.timeline-card .eyebrow {
+  margin-bottom: 12px;
+}
+
+.timeline-card p {
+  color: var(--color-text-light);
+  font-size: 15px;
+}
+
+.timeline-media {
+  flex: 1;
+}
+
+.timeline-media img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+}
+
+/* ---------- Da Luta a Liberdade ---------- */
+.freedom-section {
+  padding: 20px 0 100px 0;
+}
+
+.freedom-intro {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.freedom-intro p {
+  max-width: 780px;
+  margin: 16px auto 0 auto;
+  color: var(--color-text-light);
+}
+
+.freedom-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.freedom-card {
+  padding: 36px;
+  border-radius: var(--radius-lg);
+  color: var(--color-text-light);
+  font-size: 15px;
+}
+
+.freedom-card--green {
+  background-color: var(--color-green-bg);
+}
+
+.freedom-card--coral {
+  background-color: var(--color-coral-bg);
+}
