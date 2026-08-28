@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\jjv\\documents\\mostra\\iriejamaica\\projetojamaica\\views\\home\\culinaria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|solutionrelative:projetojamaica\\views\\home\\culinaria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\jjv\\documents\\mostra\\iriejamaica\\projetojamaica\\views\\home\\cultura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|solutionrelative:projetojamaica\\views\\home\\cultura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\jjv\\documents\\mostra\\iriejamaica\\projetojamaica\\views\\home\\historia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|solutionrelative:projetojamaica\\views\\home\\historia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\jjv\\documents\\mostra\\iriejamaica\\projetojamaica\\views\\home\\culinaria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|solutionrelative:projetojamaica\\views\\home\\culinaria.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AADC5724-0939-E557-C1EF-FA78A1AB96B3}|ProjetoJamaica\\ProjetoJamaica.csproj|c:\\users\\jjv\\documents\\mostra\\iriejamaica\\projetojamaica\\views\\home\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -106,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -122,20 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "culinaria.cshtml",
               "DocumentMoniker": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Home\\culinaria.cshtml",
               "RelativeDocumentMoniker": "ProjetoJamaica\\Views\\Home\\culinaria.cshtml",
               "ToolTip": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Home\\culinaria.cshtml",
               "RelativeToolTip": "ProjetoJamaica\\Views\\Home\\culinaria.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-28T12:37:31.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Historia.cshtml",
               "DocumentMoniker": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Home\\Historia.cshtml",
               "RelativeDocumentMoniker": "ProjetoJamaica\\Views\\Home\\Historia.cshtml",
@@ -143,8 +143,7 @@
               "RelativeToolTip": "ProjetoJamaica\\Views\\Home\\Historia.cshtml",
               "ViewState": "AgIAANIAAAAAAAAAAAAAAIcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-28T12:13:04.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-28T12:13:04.905Z"
             },
             {
               "$type": "Document",
@@ -160,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Festivais.cshtml",
               "DocumentMoniker": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Home\\Festivais.cshtml",
               "RelativeDocumentMoniker": "ProjetoJamaica\\Views\\Home\\Festivais.cshtml",
@@ -168,25 +167,24 @@
               "RelativeToolTip": "ProjetoJamaica\\Views\\Home\\Festivais.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-25T11:51:48.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-25T11:51:48.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "cultura.cshtml",
               "DocumentMoniker": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Home\\cultura.cshtml",
               "RelativeDocumentMoniker": "ProjetoJamaica\\Views\\Home\\cultura.cshtml",
               "ToolTip": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Home\\cultura.cshtml",
               "RelativeToolTip": "ProjetoJamaica\\Views\\Home\\cultura.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-08-28T12:36:11.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ProjetoJamaica\\Views\\Home\\Index.cshtml",
@@ -194,12 +192,11 @@
               "RelativeToolTip": "ProjetoJamaica\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-22T23:00:10.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-22T23:00:10.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\jjv\\Documents\\mostra\\IrieJamaica\\ProjetoJamaica\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ProjetoJamaica\\Views\\Shared\\_Layout.cshtml",
@@ -207,8 +204,7 @@
               "RelativeToolTip": "ProjetoJamaica\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-08-18T11:19:45.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T11:19:45.461Z"
             },
             {
               "$type": "Document",
