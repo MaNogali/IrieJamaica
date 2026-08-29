@@ -1,4 +1,11 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿function validarSenhas() {
+    const senha = document.getElementById("senha").value;
+    const confirmar = document.getElementById("confirmarSenha").value;
 
-// Write your JavaScript code.
+    if (senha !== confirmar) {
+        alert("As senhas não coincidem.");
+        return false;
+    }
+
+    return true;
+}

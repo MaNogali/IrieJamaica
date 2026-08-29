@@ -6,7 +6,7 @@ create table tbCliente(
     Nome varchar(50) not null,
     Email varchar(50) not null,
     Senha varchar(8) not null,
-    ConfirmacaoSenha varchar(8) not null,
+    ConfirmacaoSenha varchar(8),
 	Situacao char(1) not null
 
 );
