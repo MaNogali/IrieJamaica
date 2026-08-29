@@ -1,172 +1,367 @@
 /* ==========================================================================
-   CULINARIA PAGE STYLES
+   IRIE JAMAICA — culinaria.css
+   Folha de estilos AUTOSSUFICIENTE da página Culinária.
+   Contém TODAS as classes usadas em culinaria.html: reset, variáveis,
+   cabeçalho, botões, rodapé e os estilos exclusivos desta página.
+   Esta página não depende de nenhum outro arquivo CSS.
    ========================================================================== */
 
-/* ---------- Hero ---------- */
-.hero-inner {
-  padding: 60px 0 90px 0;
+/* ---------- Reset ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.hero-inner .container {
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background-color: #ffffff;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input {
+  font-family: inherit;
+}
+
+/* ---------- Design tokens ---------- */
+:root {
+  /* Colors */
+  --color-green: #308943;
+  --color-green-dark: #256b35;
+  --color-green-bg: #effef0;
+  --color-green-bg-soft: #eafbea;
+
+  --color-yellow: #ffef5d;
+  --color-yellow-bg: #fbffce;
+  --color-gold: #efb909;
+
+  --color-coral: #e05252;
+  --color-coral-dark: #c74242;
+  --color-coral-bg: #fff2f2;
+
+  --color-dark: #121212;
+  --color-text: #333333;
+  --color-text-light: #5f6368;
+  --color-text-muted: #767676;
+
+  --input-green-bg: #d9f8d9;
+  --input-green-text: #75c185;
+
+  /* Typography */
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  /* Layout */
+  --max-width: 1180px;
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 10px;
+  --radius-pill: 999px;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ---------- Rótulo (eyebrow) ---------- */
+/* ---------- Eyebrow / Section title ---------- */
+.rotulo {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  margin-bottom: 14px;
+}
+
+.rotulo--verde {
+  color: var(--color-green);
+}
+
+.rotulo--laranja {
+  color: #e0961f;
+}
+
+/* ---------- Botões ---------- */
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 15px 32px;
+  border-radius: var(--radius-pill);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btn-verde {
+  background-color: var(--color-green);
+  color: #ffffff;
+}
+
+.btn-amarelo {
+  background-color: var(--color-gold);
+  color: #ffffff;
+}
+
+.btn-coral {
+  background-color: var(--color-coral);
+  color: #ffffff;
+}
+
+.btn-contorno {
+  background-color: transparent;
+  color: var(--color-text);
+  font-weight: 600;
+  padding: 15px 10px;
+}
+
+.btn-pequeno {
+  padding: 12px 26px;
+  font-size: 14px;
+}
+
+/* ---------- Cabeçalho / Navbar ---------- */
+/* ---------- Header / Navbar ---------- */
+.cabecalho-site {
+  width: 100%;
+  padding: 24px 0;
+  background-color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 34px;
+}
+
+.nav-logo-bars span {
+  display: block;
+  height: 6px;
+  border-radius: 3px;
+}
+
+.nav-logo-bars span:nth-child(1) {
+  background-color: #4b9256;
+  width: 100%;
+}
+
+.nav-logo-bars span:nth-child(2) {
+  background-color: #ffe054;
+  width: 100%;
+}
+
+.nav-logo-bars span:nth-child(3) {
+  background-color: #ff3131;
+  width: 100%;
+}
+
+.nav-logo-text {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 20px;
+  color: #111111;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-links a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+
+.nav-cta {
+  display: flex;
+  align-items: center;
+}
+
+/* ---------- Rodapé ---------- */
+/* ---------- Footer ---------- */
+
+
+/* ============================================================
+   ESTILOS EXCLUSIVOS DA PÁGINA CULINÁRIA
+   ============================================================ */
+/* ==========================================================================
+   CULINÁRIA — culinaria.css
+   Folha de estilos exclusiva da página de Culinária.
+   Depende de css/site.css para reset, tipografia base, cabeçalho e rodapé.
+   ========================================================================== */
+
+/* ---------- Hero (Culinária) ---------- */
+.culinaria-destaque {
+  padding: 56px 0 70px 0;
+}
+
+.culinaria-destaque .container {
   display: flex;
   align-items: center;
   gap: 60px;
 }
 
-.hero-inner-content {
+.culinaria-destaque-conteudo {
   flex: 1;
 }
 
-.hero-inner-content h1 {
+.culinaria-destaque-conteudo .rotulo {
+  margin-bottom: 12px;
+}
+
+.culinaria-destaque-conteudo h1 {
   font-family: var(--font-serif);
   font-weight: 700;
-  font-size: 56px;
+  font-size: 48px;
   line-height: 1.1;
   color: #111111;
-  margin-bottom: 22px;
-}
-
-.hero-inner-content p {
-  color: var(--color-text-light);
-  max-width: 480px;
-  margin-bottom: 32px;
-}
-
-.hero-inner-media {
-  flex: 1;
-}
-
-.hero-inner-media img {
-  width: 100%;
-  border-radius: var(--radius-lg);
-}
-
-/* ---------- Pratos Tipicos grid ---------- */
-.dishes-section {
-  padding: 20px 0 90px 0;
-}
-
-.dishes-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
-}
-
-.dish-card {
-  display: flex;
-  gap: 22px;
-  align-items: center;
-  border-radius: var(--radius-lg);
-  padding: 24px;
-  border-top: 4px solid transparent;
-}
-
-.dish-card--green {
-  background-color: var(--color-green-bg);
-  border-top-color: var(--color-green);
-}
-
-.dish-card--yellow {
-  background-color: var(--color-yellow-bg);
-  border-top-color: var(--color-yellow);
-}
-
-.dish-card--coral {
-  background-color: var(--color-coral-bg);
-  border-top-color: var(--color-coral);
-}
-
-.dish-card img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: var(--radius-md);
-  flex-shrink: 0;
-}
-
-.dish-card h3 {
-  font-family: var(--font-serif);
-  font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 8px;
-  color: #111111;
-}
-
-.dish-card p {
-  color: var(--color-text-light);
-  font-size: 14px;
-}
-
-/* ---------- Bebidas / rows ---------- */
-.drinks-row {
-  display: flex;
-  align-items: center;
-  gap: 56px;
-  padding: 40px 0 90px 0;
-}
-
-.drinks-row-media {
-  flex: 1;
-  padding: 20px;
-  border-radius: var(--radius-lg);
-  background-color: var(--color-coral-bg);
-}
-
-.drinks-row-media img {
-  width: 100%;
-  border-radius: var(--radius-md);
-  height: 320px;
-  object-fit: cover;
-}
-
-.drinks-row-content {
-  flex: 1;
-}
-
-.drinks-row-content p {
-  color: var(--color-text-light);
-  text-align: justify;
   margin-bottom: 18px;
 }
 
-.drinks-row-content p:last-child {
-  margin-bottom: 0;
+.culinaria-destaque-conteudo p {
+  color: var(--color-text-light);
+  max-width: 480px;
+  font-size: 15px;
 }
 
-/* ---------- Origens (three column info) ---------- */
-.origins-grid {
+.culinaria-destaque-midia {
+  flex: 1;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
 }
 
-.origin-card {
-  text-align: center;
-  padding: 36px 28px;
+.culinaria-destaque-midia img:first-child {
+  grid-row: 1 / 3;
+  height: 100%;
+}
+
+.culinaria-destaque-midia img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
   border-radius: var(--radius-lg);
 }
 
-.origin-card--green {
+/* ---------- Título "Pratos Típicos" ---------- */
+.pratos-secao {
+  padding: 30px 0 70px 0;
+}
+
+.pratos-secao-intro {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 48px auto;
+}
+
+.pratos-secao-intro h2 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 40px;
+  color: #111111;
+  margin-bottom: 16px;
+}
+
+.pratos-secao-intro p {
+  color: var(--color-text-light);
+  font-size: 15px;
+}
+
+/* ---------- Grid de pratos (6 cards, 3 colunas) ---------- */
+.pratos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.prato-card {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.prato-card--verde {
   background-color: var(--color-green-bg);
 }
 
-.origin-card--yellow {
+.prato-card--amarelo {
   background-color: var(--color-yellow-bg);
 }
 
-.origin-card--coral {
+.prato-card--coral {
   background-color: var(--color-coral-bg);
 }
 
-.origin-card h3 {
-  font-family: var(--font-serif);
-  font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 12px;
-  color: #111111;
+.prato-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  display: block;
 }
 
-.origin-card p {
+.prato-card-conteudo {
+  padding: 24px 22px 28px 22px;
+}
+
+.prato-card-conteudo h3 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 21px;
+  color: #111111;
+  margin-bottom: 14px;
+}
+
+.prato-card-conteudo p {
   color: var(--color-text-light);
   font-size: 14px;
+  text-align: justify;
 }

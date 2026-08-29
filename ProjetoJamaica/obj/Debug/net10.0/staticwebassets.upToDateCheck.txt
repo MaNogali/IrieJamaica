@@ -1,4 +1,4 @@
-wwwroot\assets\img\bebidajamaica.jpeg
+wwwroot\assets\img\Ackee.png
 wwwroot\assets\img\cul2.png
 wwwroot\assets\img\cul3.png
 wwwroot\assets\img\cul4.png
@@ -32,9 +32,11 @@ wwwroot\assets\img\festival1.png
 wwwroot\assets\img\festival2.png
 wwwroot\assets\img\festival3.png
 wwwroot\assets\img\festivalbob.png
+wwwroot\assets\img\Fish.png
 wwwroot\assets\img\foto1.png
 wwwroot\assets\img\foto2.png
 wwwroot\assets\img\foto3.png
+wwwroot\assets\img\Goat.png
 wwwroot\assets\img\hist1.png
 wwwroot\assets\img\hist2.png
 wwwroot\assets\img\hist3.png
@@ -42,11 +44,16 @@ wwwroot\assets\img\hist4.1.png
 wwwroot\assets\img\hist4.png
 wwwroot\assets\img\hist5.png
 wwwroot\assets\img\hist6.png
+wwwroot\assets\img\indio.png
+wwwroot\assets\img\Jerk.png
 wwwroot\assets\img\logo.png
+wwwroot\assets\img\luta.png
 wwwroot\assets\img\ochorios.png
 wwwroot\assets\img\OchoRios2.png
+wwwroot\assets\img\Patties.png
 wwwroot\assets\img\ReggaeSumFest2.png
 wwwroot\assets\img\SemanaBobMarley2.png
+wwwroot\assets\img\Stew.png
 wwwroot\assets\img\sumfest.png
 wwwroot\css\base.css
 wwwroot\css\culinaria.css
@@ -118,7 +125,6 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\css\base.css
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\css\culinaria.css
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\css\cultura.css
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\css\festivais.css
@@ -127,6 +133,7 @@ C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\css\home
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\css\login.css
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\css\site.css
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\favicon.ico
+C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\js\site.js
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -180,10 +187,10 @@ C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jque
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery-validation\LICENSE.md
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.js
-C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.min.js
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.min.map
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.slim.js
-C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\css\base.css
+C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.min.js
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\wwwroot\js\site.js

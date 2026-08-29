@@ -1,157 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Culinária | Irie Jamaica</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Culinária | Irie Jamaica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/base.css" />
-    <link rel="stylesheet" href="~/css/culinaria.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/culinaria.css" />
 </head>
-<body>
+<body class="page-culinaria">
 
- 
-  <!-- ===================== BODY ===================== -->
-  <section class="hero-inner">
-    <div class="container">
-      <div class="hero-inner-content">
-        <span class="eyebrow eyebrow--orange">SABORES DE RAÍZES AFRICANAS, BRITÂNICAS E INDÍGENAS</span>
-        <h1>Culinária</h1>
-        <p>
-          A culinária jamaicana é um deleite para os sentidos — frango jerk
-          defumado, ackee com bacalhau (o prato nacional), bolinhos de massa
-          típicos de festivais, arroz com feijão e bebidas refrescantes de
-          hibisco. Cada mordida conta uma história de raízes africanas,
-          britânicas e indígenas.
-        </p>
-        <a href="festivais.html" class="btn btn-green">Explore Festivais</a>
-      </div>
-      <div class="hero-inner-media">
-        <img src="~/assets/img/culi1.png" alt="Frango jerk jamaicano" />
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== PRATOS TÍPICOS ===================== -->
-  <section class="dishes-section">
-    <div class="container">
-      <div class="section-intro">
-        <span class="eyebrow eyebrow--green">SABORES DA ILHA</span>
-        <h2 class="section-heading">Pratos Típicos</h2>
-      </div>
-
-      <div class="dishes-grid">
-        <div class="dish-card dish-card--green">
-                    <img src="~/assets/img/cul4.png" alt="Frango jerk" />
-          <div>
-            <h3>Frango Jerk</h3>
-            <p>
-              Frango temperado com uma mistura picante de especiarias e
-              defumado lentamente, um dos pratos mais conhecidos da Jamaica
-              no mundo todo.
-            </p>
-          </div>
+    <!-- ===================== HERO ===================== -->
+    <section class="culinaria-destaque">
+        <div class="container">
+            <div class="culinaria-destaque-conteudo">
+                <span class="rotulo rotulo--laranja">Conheça comidas deliciosas</span>
+                <h1>Culinária</h1>
+                <p>
+                    A culinária jamaicana é conhecida por seus sabores marcantes,
+                    temperos intensos e pela mistura de diferentes culturas. Ela
+                    recebeu influências principalmente dos povos africanos, europeus,
+                    indianos e chineses que fizeram parte da história da Jamaica.
+                    Entre os ingredientes mais utilizados estão o frango, peixe,
+                    arroz, feijão, banana-da-terra, pimentas e diversas especiarias.
+                    Alguns pratos se tornaram símbolos da cultura jamaicana e são
+                    muito consumidos tanto no dia a dia quanto em celebrações.
+                </p>
+            </div>
+            <div class="culinaria-destaque-midia">
+                <img src="~/assets/img/culi1.png" alt="Pratos jamaicanos variados" />
+                <img src="~/assets/img/cul2.png" alt="Frango com arroz jamaicano" />
+                <img src="~/assets/img/cul3.png" alt="Patty jamaicano" />
+            </div>
         </div>
+    </section>
 
-        <div class="dish-card dish-card--coral">
-                    <img src="~/assets/img/cul5.png" alt="Ackee com bacalhau" />
-          <div>
-            <h3>Ackee com Bacalhau</h3>
-            <p>
-              Considerado o prato nacional da Jamaica, combina a fruta ackee
-              com bacalhau desfiado, cebola e pimentões.
-            </p>
-          </div>
+    <!-- ===================== PRATOS TÍPICOS ===================== -->
+    <section class="pratos-secao">
+        <div class="container">
+            <div class="pratos-secao-intro">
+                <h2>Pratos Típicos</h2>
+                <p>
+                    A culinária jamaicana tem bastante influência africana, europeia
+                    e asiática, além de usar muitos temperos e ingredientes locais.
+                </p>
+            </div>
+
+            <div class="pratos-grid">
+                <article class="prato-card prato-card--verde">
+                    <img src="~/assets/img/Jerk.png" alt="Jerk chicken" />
+                    <div class="prato-card-conteudo">
+                        <h3>Jerk chicken</h3>
+                        <p>
+                            Um dos pratos mais famosos da Jamaica. É um frango temperado
+                            com uma mistura de especiarias e pimentas, tradicionalmente
+                            preparado na churrasqueira ou defumado. O tempero jerk
+                            costuma levar pimenta-da-jamaica, tomilho, alho e pimentas.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="prato-card prato-card--amarelo">
+                    <img src="~/assets/img/Ackee.png" alt="Ackee and Saltfish" />
+                    <div class="prato-card-conteudo">
+                        <h3>Ackee and Saltfish</h3>
+                        <p>
+                            É considerado o prato nacional da Jamaica. Combina ackee, uma
+                            fruta tropical típica da região, com bacalhau salgado, além
+                            de cebola, tomate e temperos. Normalmente é servido no café
+                            da manhã.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="prato-card prato-card--coral">
+                    <img src="~/assets/img/Patties.png" alt="Jamaican Patties" />
+                    <div class="prato-card-conteudo">
+                        <h3>Jamaican Patties</h3>
+                        <p>
+                            São massas recheadas, geralmente com carne bovina bem temperada, embora também existam versões com frango, queijo ou vegetais. Possuem uma aparência semelhante a uma empanada e são muito populares como lanche.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="prato-card prato-card--verde">
+                    <img src="~/assets/img/Goat.png" alt="Curry Goat" />
+                    <div class="prato-card-conteudo">
+                        <h3>Curry Goat</h3>
+                        <p>
+                            Carne de cabra preparada com curry e diversas especiarias. O
+                            prato possui forte influência da culinária indiana, resultado
+                            da presença de imigrantes indianos na Jamaica.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="prato-card prato-card--amarelo">
+                    <img src="~/assets/img/Fish.png" alt="Escovitch Fish" />
+                    <div class="prato-card-conteudo">
+                        <h3>Escovitch Fish</h3>
+                        <p>
+                            Peixe frito servido com um molho feito de vinagre, cebola,
+                            pimentas e outros temperos. É conhecido pelo sabor forte e
+                            pela combinação de elementos picantes e ácidos.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="prato-card prato-card--coral">
+                    <img src="~/assets/img/Stew.png" alt="Jamaican Brown Stew Chicken" />
+                    <div class="prato-card-conteudo">
+                        <h3>Jamaican Brown Stew Chicken</h3>
+                        <p>
+                            Frango cozido lentamente em um molho escuro e bem temperado.
+                            O processo de dourar a carne antes do cozimento dá ao prato
+                            sua aparência e sabor característicos.
+                        </p>
+                    </div>
+                </article>
+            </div>
         </div>
+    </section>
 
-        <div class="dish-card dish-card--yellow">
-                    <img src="~/assets/img/cul6.png" alt="Bolinhos de festival" />
-          <div>
-            <h3>Jamaican Patties</h3>
-            <p>
-              Massa frita levemente adocicada, típica dos festivais
-              jamaicanos, servida como acompanhamento de peixe e frutos do
-              mar.
-            </p>
-          </div>
-        </div>
-
-        <div class="dish-card dish-card--green">
-                    <img src="~/assets/img/cul7.png" alt="Curry jamaicano" />
-          <div>
-            <h3>Curry Goat</h3>
-            <p>
-              Preparado com leite de coco e temperos aromáticos, é o
-              acompanhamento mais tradicional da mesa jamaicana.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== BEBIDAS TRADICIONAIS ===================== -->
-  <section class="drinks-row">
-    <div class="container" style="display:flex; align-items:center; gap:56px;">
-      <div class="drinks-row-media">
-        <img src="~/assets/img/bebidajamaica.jpeg" alt="Bebida jamaicana" />
-      </div>
-      <div class="drinks-row-content">
-        <span class="eyebrow eyebrow--orange">FRESCOR TROPICAL</span>
-        <h2 class="section-heading" style="margin-bottom:18px;">Bebidas Tradicionais</h2>
-        <p>
-                    O sorrel, também conhecido como “água da Jamaica”, é uma bebida tradicional preparada com os cálices da flor de hibisco, muito popular no país há séculos. Embora seja frequentemente associado às festas de fim de ano, atualmente é consumido em qualquer época, tanto em ocasiões festivas quanto no dia a dia.
-        </p>
-        <p>
-          Além do sorrel, sucos de frutas tropicais e o famoso café azul da
-          Jamaica também fazem parte do dia a dia gastronômico do país,
-          completando uma experiência sensorial única a cada refeição.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== ORIGENS DA CULINÁRIA ===================== -->
-  <section class="dishes-section">
-    <div class="container">
-      <div class="section-intro">
-        <span class="eyebrow eyebrow--orange">MISTURA DE SABORES</span>
-        <h2 class="section-heading">Origens da Culinária</h2>
-        <p>
-          A culinária jamaicana é o resultado do encontro entre diferentes
-          povos e tradições que passaram pela ilha ao longo dos séculos.
-        </p>
-      </div>
-
-      <div class="origins-grid">
-        <div class="origin-card origin-card--green">
-          <h3>Herança Africana</h3>
-          <p>
-            Temperos marcantes, técnicas de defumação e o uso de pimentas
-            fortes, trazidos pelos povos africanos escravizados.
-          </p>
-        </div>
-        <div class="origin-card origin-card--yellow">
-          <h3>Influência Britânica</h3>
-          <p>
-            Ingredientes como o bacalhau salgado e técnicas de preparo
-            introduzidas durante o período colonial britânico.
-          </p>
-        </div>
-        <div class="origin-card origin-card--coral">
-          <h3>Raízes Indígenas</h3>
-          <p>
-            O legado taíno permanece vivo no uso da mandioca, do milho e de
-            métodos tradicionais de defumação de carnes.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  
 
 </body>
 </html>

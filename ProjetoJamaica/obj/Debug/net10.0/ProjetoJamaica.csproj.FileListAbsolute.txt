@@ -635,7 +635,6 @@ C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\scopedcss\bundle\ProjetoJamaica.styles.css
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\scopedcss\projectbundle\ProjetoJamaica.bundle.scp.css
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\0czhgc86sf-{0}-1yutpqg9wb-1yutpqg9wb.gz
-C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\jpd0trzy2d-{0}-r8yedgn2p9-r8yedgn2p9.gz
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\vu9125o7ka-{0}-0jss96tpa2-0jss96tpa2.gz
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\jglnujei8m-{0}-avic3502pm-avic3502pm.gz
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\5qgmyn019t-{0}-e9wjtjvxvx-e9wjtjvxvx.gz
@@ -716,4 +715,5 @@ C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\ProjetoJamaica.pdb
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\ProjetoJamaica.genruntimeconfig.cache
 C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\ref\ProjetoJamaica.dll
-C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\pqbgg2xw3z-{0}-jf5d5sxfsi-jf5d5sxfsi.gz
+C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\jpd0trzy2d-{0}-kzdy7zrbhp-kzdy7zrbhp.gz
+C:\Users\gustavo\Documents\Jamaica\3\IrieJamaica\ProjetoJamaica\obj\Debug\net10.0\compressed\pqbgg2xw3z-{0}-s5dlx7ztc3-s5dlx7ztc3.gz
